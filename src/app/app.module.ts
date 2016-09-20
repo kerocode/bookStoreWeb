@@ -19,11 +19,13 @@ import { MdRadioModule } from '@angular2-material/radio';
  
 import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
+import { MainMenuComponent } from './main-menu/main-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponentComponent
+    HomeComponentComponent,
+    MainMenuComponent
   ],
   imports: [
     BrowserModule,
